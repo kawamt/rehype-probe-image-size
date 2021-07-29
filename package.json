@@ -1,0 +1,42 @@
+{
+  "name": "rehype-probe-image-size",
+  "version": "1.0.0",
+  "description": "Rehype plugin to set the size of img elements.",
+  "main": "index.js",
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "img",
+    "image",
+    "size"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawaPC/rehype-probe-image-size.git"
+  },
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "author": "kawamt <kawamoto.hp0@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kawaPC/rehype-probe-image-size/issues"
+  },
+  "homepage": "https://github.com/kawaPC/rehype-probe-image-size#readme",
+  "dependencies": {
+    "probe-image-size": "^7.2.1",
+    "unified": "^9.0.0",
+    "unist-util-visit": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "rehype-stringify": "^8.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
